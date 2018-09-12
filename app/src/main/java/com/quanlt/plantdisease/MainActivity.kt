@@ -29,7 +29,7 @@ import java.io.OutputStream
 
 class MainActivity : AppCompatActivity(), ActivityCompat.OnRequestPermissionsResultCallback {
 
-    private var mCameraView: CameraView? = null
+    private lateinit var mCameraView: CameraView
 
     private var mBackgroundHandler: Handler? = null
 
@@ -37,9 +37,7 @@ class MainActivity : AppCompatActivity(), ActivityCompat.OnRequestPermissionsRes
 
     private val mOnClickListener = View.OnClickListener { v ->
         when (v.id) {
-            R.id.take_picture -> if (mCameraView != null) {
-                mCameraView!!.takePicture()
-            }
+            R.id.take_picture -> mCameraView.takePicture()
         }
     }
 
@@ -67,7 +65,7 @@ class MainActivity : AppCompatActivity(), ActivityCompat.OnRequestPermissionsRes
             Log.d(TAG, "onPictureTaken " + data.size)
             backgroundHandler.post {
                 val file = File(getExternalFilesDir(Environment.DIRECTORY_PICTURES),
-                        "picture.jpg")
+                        "picture" + System.currentTimeMillis() + ".jpg")
                 var os: OutputStream? = null
                 try {
                     os = FileOutputStream(file)
@@ -103,9 +101,7 @@ class MainActivity : AppCompatActivity(), ActivityCompat.OnRequestPermissionsRes
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         mCameraView = findViewById(R.id.camera)
-        if (mCameraView != null) {
-            mCameraView!!.addCallback(mCallback)
-        }
+        mCameraView.addCallback(mCallback)
         val fab = findViewById<View>(R.id.take_picture) as FloatingActionButton
         fab.setOnClickListener(mOnClickListener)
         val toolbar = findViewById<View>(R.id.toolbar) as Toolbar
@@ -118,7 +114,7 @@ class MainActivity : AppCompatActivity(), ActivityCompat.OnRequestPermissionsRes
     override fun onResume() {
         super.onResume()
         when {
-            ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED -> mCameraView!!.start()
+            ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED -> mCameraView.start()
             ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.CAMERA) -> ConfirmationDialogFragment
                     .newInstance(R.string.camera_permission_confirmation,
@@ -132,8 +128,8 @@ class MainActivity : AppCompatActivity(), ActivityCompat.OnRequestPermissionsRes
     }
 
     override fun onPause() {
-        mCameraView!!.stop()
         super.onPause()
+        mCameraView.stop()
     }
 
     override fun onDestroy() {
