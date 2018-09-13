@@ -3,4 +3,5 @@
     <string name="picture_taken">Takend</string>
     <string name="camera_permission_confirmation">Confirmation</string>
     <string name="camera_permission_not_granted">Not granted</string>
+    <string name="camera_error">This device doesn\\\'t support Camera2 API</string>
 </resources>

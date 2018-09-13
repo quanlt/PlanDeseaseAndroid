@@ -63,7 +63,7 @@ public class ImageClassifier {
     /**
      * Number of results to show in the UI.
      */
-    private static final int RESULTS_TO_SHOW = 3;
+    private static final int RESULTS_TO_SHOW = 1;
 
     /**
      * Dimensions of inputs.

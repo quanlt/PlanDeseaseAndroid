@@ -1,40 +1,155 @@
 {
-  "c 0": "Apple Scab, Venturia inaequalis ",
-  "c 1": "Apple Black Rot, Botryosphaeria obtusa ",
-  "c 2": "Apple Cedar Rust, Gymnosporangium juniperi-virginianae",
-  "c 3": "Apple healthy ",
-  "c 4": "Blueberry healthy ",
-  "c 5": "Cherry healthy ",
-  "c 6": "Cherry Powdery Mildew, Podosphaeraspp. ",
-  "c 7": "Corn Gray Leaf Spot, Cercospora zeae-maydis ",
-  "c 8": "Corn CommonRust, Puccinia sorghi ",
-  "c 9": "Corn healthy ",
-  "c 10": "Corn Northern Leaf Blight, Exserohilumturcicum ",
-  "c 11": "Grape Black Rot, Guignardia bidwellii, ",
-  "c 12": "Grape Black Measles (Esca), Phaeomoniella aleophilum, Phaeomoniella chlamydospora ",
-  "c 13": "Grape Healthy ",
-  "c 14": "Grape Leaf Blight, Pseudocercospora vitis ",
-  "c 15": "Orange Huanglongbing (Citrus Greening), Candidatus Liberibacter spp. ",
-  "c 16": "Peach Bacterial Spot, Xanthomonas campestris",
-  "c 17": "Peach healthy ",
-  "c 18": "Bell Pepper Bacterial Spot, Xanthomonas campestris ",
-  "c 19": "Bell Pepper healthy ",
-  "c 20": "Potato Early Blight, Alternaria solani ",
-  "c 21": "Potato healthy ",
-  "c 22": "Potato Late Blight, Phytophthora infestans ",
-  "c 23": "Raspberry healthy ",
-  "c 24": "Soybean healthy",
-  "c 25": "Squash Powdery Mildew, Erysiphe cichoracearum, Sphaerotheca fuliginea ",
-  "c 26": "Strawberry Healthy ",
-  "c 27": "Strawberry Leaf Scorch, Diplocarpon earlianum ",
-  "c 28": "Tomato Bacterial Spot, Xanthomonas campestris pv. vesicatoria ",
-  "c 29": "Tomato Early Blight, Alternaria solani ",
-  "c 30": "Tomato Late Blight, Phytophthora infestans ",
-  "c 31": "Tomato Leaf Mold, Fulvia fulva ",
-  "c 32": "Tomato Septoria Leaf Spot, Septoria lycopersici ",
-  "c 33": "Tomato Two Spotted Spider Mite, Tetranychus urticae ",
-  "c 34": "Tomato Target Spot, Corynespora cassiicola ",
-  "c 35": "Tomato Mosaic Virus ",
-  "c 36": "Tomato Yellow Leaf Curl Virus ",
-  "c 37": "Tomato healthy"
+  "c 0": {
+    "name": "Apple Scab, Venturia inaequalis ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+  "c 1": {
+    "name": "Apple Black Rot, Botryosphaeria obtusa ",
+    "detail": "B. obtusa enters the fruit through wounds. These can be made by insects, birds or growth cracks. At first a brown spot, near the calyx, appears on the fruit.[2] The spot on the fruit then enlarges and black/brown rings appear on the fruit. The fruit holds its shape, however, unlike other fruit diseases. The fruit will then wither up and can remain on the tree for another year before falling off. During this time pycnidia appear on the surface of the rotted fruit."
+  },
+  "c 2": {
+    "name": "Apple Cedar Rust, Gymnosporangium juniperi-virginianae",
+    "detail": "Cedar apple rust (Gymnosporangium juniperi-virginianae) is a fungal disease that requires juniper plants to complete its complicated two year life-cycle. Spores overwinter as a reddish-brown gall on young twigs of various juniper species. In early spring, during wet weather, these galls swell and bright orange masses of spores are blown by the wind where they infect susceptible apple and crab-apple trees. The spores that develop on these trees will only infect junipers the following year. From year to year, the disease must pass from junipers to apples to junipers again; it cannot spread between apple trees."
+  },
+  "c 3": {
+    "name": "Apple healthy ",
+    "detail": "Nothing better than a healthy apple"
+  },
+  "c 4": {
+    "name": "Blueberry healthy ",
+    "detail": "Nothing better than a healthy blueberry"
+  },
+  "c 5": {
+    "name": "Cherry healthy ",
+    "detail": "Nothing better than a healthy cherry"
+  },
+  "c 6": {
+    "name": "Cherry Powdery Mildew, Podosphaeraspp ",
+    "detail": "Powdery mildew of sweet and sour cherry is caused by Podosphaera clandestina, an obligate biotrophic fungus. Mid- and late-season sweet cherry (Prunus avium) cultivars are commonly affected, rendering them unmarketable due to the covering of white fungal growth on the cherry surface (Fig. 1). Season long disease control of both leaves and fruit is critical to minimize overall disease pressure in the orchard and consequently to protect developing fruit from accumulating spores on their surfaces."
+  },
+  "c 7": {
+    "name": "Corn Gray Leaf Spot, Cercospora zeae-maydis ",
+    "detail": "Cercospora zeae-maydis is a haploid, ascomycete fungus that causes gray leaf spot disease of corn (Zea mays). This disease was first discovered in Illinois, USA, during 1925 but has increased greatly in occurrence and severity during the past 20 years and now is an economic threat in many corn-production areas worldwide. Greater occurrence and severity of the disease have been associated with increased use of minimum-tillage agriculture. Symptoms include elongated, rectangular leaf lesions, discoloration (chlorosis), and entire leaf blight caused by coalescing lesions that can reduce yields by more than 50% under disease-favorable conditions. Gray leaf spot is an important disease throughout the United States, and is economically significant in the Midwest and Mid-Atlantic regions. However, it also occurs in Central America, China, Europe, India, Mexico, the Philippines, Southeast Asia, and is particularly devastating in parts of South America and Africa. Effective management of gray leaf spot is essential to ensure a stable supply of food, feed and fuel from corn crops of the future."
+  },
+  "c 8": {
+    "name": "Corn Common Rust, Puccinia sorghi ",
+    "detail": "Common corn rust, caused by the fungus Puccinia sorghi, is the most frequently occurring of the two primary rust diseases of corn in the U.S., but it rarely causes significant yield losses in Ohio field (dent) corn. Occasionally field corn, particularly in the southern half of the state, does become severely affected when weather conditions favor the development and spread of the rust fungus. Sweet corn is generally more susceptible than field corn. In years with exceptionally cool summers, and especially on late-planted fields or sweet corn, yield losses may occur when the leaves at and above the ears become severely diseased before grain fill is complete."
+  },
+  "c 9": {
+    "name": "Corn healthy ",
+    "detail": "Nothing better than a healthy corn."
+  },
+  "c 10": {
+    "name": "Corn Northern Leaf Blight, Exserohilumturcicum ",
+    "detail": "Early northern corn leaf blight lesions are gray-green and elliptical, beginning 1 to 2 weeks after infection.In a susceptible reaction, fungal sporulation will begin within a few days. Northern corn leaf blight lesions become pale gray to tan as they enlarge to 1 to 6 inches or longer.Distinct cigar-shaped lesions unrestricted by leaf veins make northern corn leaf blight (NCLB) one of the easiest diseases to identify.Under moist conditions, lesions produce dark gray spores, usually on the lower leaf surface, giving the lesions a \"dirty\" appearance.As many lesions enlarge and coalesce, entire leaves or leaf areas may be covered.Heavy blighting and lesion coalescence give leaves a gray/burned appearance."
+  },
+  "c 11": {
+    "name": "Grape Black Rot, Guignardia bidwellii ",
+    "detail": "Grape black rot is a fungal disease caused by an ascomycetous fungus, Guignardia bidwellii, that attacks grape vines during hot and humid weather. “Grape black rot originated in eastern North America, but now occurs in portions of Europe, South America, and Asia. It can cause complete crop loss in warm, humid climates, but is virtually unknown in regions with arid summers.” 4 The name comes from the black fringe that borders growing brown patches on the leaves. The disease also attacks other parts of the plant,“all green parts of the vine: the shoots, leaf and fruit stems, tendrils, and fruit. The most damaging effect is to the fruit”. Grape black rot affects many grape growers throughout the United States, therefore, it is important to understand the disease life cycle and environmental conditions to best manage the disease. Once infection takes place, different methods are available to control the disease."
+  },
+  "c 12": {
+    "name": "Grape Black Measles (Esca), Phaeomoniella aleophilum, Phaeomoniella chlamydospora ",
+    "detail": "Esca, Botryosphaeria dieback, Eutypa dieback, and Phomopsis dieback make up a complex of \"trunk diseases\" caused by different wood-infecting fungi. The foliar symptom of Esca is an interveinal \"striping\". The \"stripes\", which start out as dark red in red cultivars and yellow in white cultivars, dry and become necrotic. Foliar symptoms may occur at any time during the growing season, but are most prevalent during July and August. They are often restricted to an individual shoot or to shoots originating from the same spur or cane. Symptomatic leaves can dry completely and drop prematurely. On berries, small, round, dark spots each bordered by a brown-purple ring, may occur. These fruit spots, which are better viewed on white cultivars, may appear at any time between fruit set and ripening. In severely affected vines, the berries often crack and dry or are subject to spoilage. Symptomatic fruit is found only on shoots with symptomatic leaves, but you can find shoots with symptomatic leaves and no symptomatic fruit. Cross-sectional cuts through canes, spurs, cordons, or trunks from which symptomatic shoots originate will reveal concentric rings of dark spots. Eventually the spur or cane from which symptomatic shoots originate may die. The appearance of foliar and especially fruit symptoms is inconsistent from year to year, which is thought to be due to possibly climate-induced variability in toxin production by the pathogen. A severe form of Esca known as \"apoplexy\", which is more common in Europe, results in a sudden dieback of the entire shoot or adjacent shoots, rather than a gradual development of foliar symptoms."
+  },
+  "c 13": {
+    "name": "Grape Healthy ",
+    "detail": "Nothing better than a healthy grape"
+  },
+  "c 14": {
+    "name": "Grape Leaf Blight, Pseudocercospora vitis ",
+    "detail": "Pseudocercospora vitis is a fungal plant pathogen."
+  },
+  "c 15": {
+    "name": "Orange Huanglongbing (Citrus Greening), Candidatus Liberibacter spp. ",
+    "detail": "Huanglongbing (HLB) is presumptively caused by a phloem limited bacteria. In citrus there are three forms of concern, the Asian, African and American forms. The Asian form of HLB expresses symptoms in both cool and warm conditions. The African form of HLB expresses symptoms only in cool conditions (20-250 C, 68-770 F). Both isolates can be vectored by the Asian citrus psyllid Diaphorina citri (Kuwayana) and by the psyllid Trioza erytreae (Del Guercio). The American form was identified in Brazil in 2004 and is transmitted by D. citri there."
+  },
+  "c 16": {
+    "name": "Peach Bacterial Spot, Xanthomonas campestris ",
+    "detail": "Bacterial spot sometimes known as \"bacterial shot hole\" is a commonly encountered disease, especially on older peach trees. This disease may also be found on susceptible varieties of apricot and plum but is more frequently seen on peach and nectarine. Bacterial spot is caused by the bacterium Xanthomonas campestris pv. pruni. The disease occurs most often on Long Island, but has been occasionally reported in the Hudson valley and Western New York. "
+  },
+  "c 17": {
+    "name": "Peach healthy ",
+    "detail": "Nothing better than a healthy peach"
+  },
+  "c 18": {
+    "name": "Bell Pepper Bacterial Spot, Xanthomonas campestris ",
+    "detail": "Bacterial spot is one of the most devastating diseases of pepper and tomato grown in warm, moist environments. Once present in the crop, it is almost impossible to control the disease and prevent major fruit loss when environmental conditions remain favorable. The study of this bacterial pathogen also has significantly enhanced the scientific understanding of host-pathogen interactions and the molecular basis of the gene-for-gene model."
+  },
+  "c 19": {
+    "name": "Bell Pepper healthy ",
+    "detail": "Nothing better than a healthy bell pepper"
+  },
+  "c 20": {
+    "name": "Potato Early Blight, Alternaria solani ",
+    "detail": "Alternaria solani is a fungal pathogen, that produces a disease in tomato and potato plants called early blight. The pathogen produces distinctive \"bullseye\" patterned leaf spots and can also cause stem lesions and fruit rot on tomato and tuber blight on potato. Despite the name \"early,\" foliar symptoms usually occur on older leaves.[1] If uncontrolled, early blight can cause significant yield reductions.[2] Primary methods of controlling this disease include preventing long periods of wetness on leaf surfaces[3] and applying fungicides.[4]"
+  },
+  "c 21": {
+    "name": "Potato healthy ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+  "c 22": {
+    "name": "Potato Late Blight, Phytophthora infestans ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+  "c 23": {
+    "name": "Raspberry healthy ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+  "c 24": {
+    "name": "Soybean healthy ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+  "c 25": {
+    "name": "Squash Powdery Mildew, Erysiphe cichoracearum, Sphaerotheca fuliginea ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+  "c 26": {
+    "name": "Strawberry Healthy ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+  "c 27": {
+    "name": "Strawberry Leaf Scorch, Diplocarpon earlianum ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+  "c 28": {
+    "name": "Tomato Bacterial Spot, Xanthomonas campestris pv. vesicatoria ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+  "c 29": {
+    "name": "Tomato Early Blight, Alternaria solani ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+  "c 30": {
+    "name": "Tomato Late Blight, Phytophthora infestans ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+  "c 31": {
+    "name": "Tomato Leaf Mold, Fulvia fulva ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+  "c 32": {
+    "name": "Tomato Septoria Leaf Spot, Septoria lycopersici ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+
+  "c 33": {
+    "name": "Tomato Two Spotted Spider Mite, Tetranychus urticae ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+  "c 34": {
+    "name": "Tomato Target Spot, Corynespora cassiicola ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+  "c 35": {
+    "name": "Tomato Mosaic Virus ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+  "c 36": {
+    "name": "Tomato Yellow Leaf Curl Virus ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  },
+  "c 37": {
+    "name": "Tomato healthy ",
+    "detail": "Apple scab is a disease of Malus trees, such as apple trees, caused by the ascomycete fungus Venturia inaequalis. The disease manifests as dull black or grey-brown lesions on the surface of tree leaves,[1] buds or fruits. Lesions may also appear less frequently on the woody tissues of the tree. Fruits and the undersides of leaves are especially susceptible. The disease rarely kills its host, but can significantly reduce fruit yields and fruit quality. Affected fruits are less marketable due to the presence of the black fungal lesions."
+  }
 }
